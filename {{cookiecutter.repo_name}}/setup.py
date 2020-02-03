@@ -38,6 +38,6 @@ platforms='Tested on Ubuntu 16.04 64bit',
 packages=find_packages(exclude=['test*', 'deps*', 'data*', 'data']),
 include_package_data=True,
 entry_points={
-    'console_scripts': ['template = template.run:parser.dispatch',],
+    'console_scripts': ['{{cookiecutter.repo_name}} = {{cookiecutter.repo_name}}.run:parser.dispatch',],
     },
 )
