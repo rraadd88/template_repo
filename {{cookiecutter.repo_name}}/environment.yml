@@ -1,0 +1,8 @@
+name: {{cookiecutter.repo_name}}
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pip:
+    - rohan

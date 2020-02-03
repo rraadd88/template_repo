@@ -1,0 +1,10 @@
+include MANIFEST.in
+include setup.py
+include README.md
+include LICENSE
+recursive-exclude {{cookiecutter.repo_name}} data deps
+recursive-include {{cookiecutter.repo_name}} *.py
+recursive-include {{cookiecutter.repo_name}} *.yml
+recursive-include {{cookiecutter.repo_name}} *.txt
+include {{cookiecutter.repo_name}}/plot.zip
+include {{cookiecutter.repo_name}}/figures.ipynb

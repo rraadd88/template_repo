@@ -1,0 +1,16 @@
+prjd: data_{{cookiecutter.repo_name}}
+cols_id:
+- gene id
+- gene name
+cols_subset:
+- species type
+- species name
+- data type
+element2color:
+  Scer: '#dc9f4e'
+  hybrid: '#428774'
+  neutral: '#d24043'
+taxid: 559292
+databasep: 'database'
+uniprotalignmentp: 'database/alignment.fasta' 
+ddms_rawp: 'https://www.mavedb.org/scoreset/urn:mavedb:00000041-a-1/scores/'
