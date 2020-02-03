@@ -1,4 +1,3 @@
-prjd: data_{{cookiecutter.repo_name}}
 cols_id:
 - gene id
 - gene name
